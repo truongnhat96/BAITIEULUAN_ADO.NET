@@ -1,0 +1,18 @@
+﻿<Window x:Class="BAITIEULUAN.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BAITIEULUAN"
+        mc:Ignorable="d"
+        Title="Login" Height="608" WindowStartupLocation="CenterScreen" Width="800">
+    <Grid>
+        <Label Width="400" FontSize="40" FontWeight="Bold" HorizontalContentAlignment="Center" Margin="216,10,184,466">ĐĂNG NHẬP</Label>
+        <TextBlock FontSize="25" Height="40" Margin="28,105,600,407">Tên tài khoản</TextBlock>
+        <TextBox x:Name="txtUsername" FontSize="25" Height="50" Margin="28,164,28,338"/>
+        <TextBlock FontSize="25" Height="40" Margin="28,236,655,276">Mật khẩu</TextBlock>
+        <PasswordBox x:Name="txtPassword" FontSize="25" Height="50" Margin="28,295,28,207"/>
+        <Button x:Name="btnLogin" Cursor="Hand" Content="ĐĂNG NHẬP" FontSize="25" Height="58" Background="SteelBlue"  Margin="28,390,28,0" VerticalAlignment="Top" Click="btnLogin_Click"/>
+        <Button x:Name="btnSignup" Cursor="Hand" Content="ĐĂNG KÝ" FontSize="25" Height="58" Margin="28,479,28,0" VerticalAlignment="Top" Click="btnSignup_Click"/>
+    </Grid>
+</Window>
